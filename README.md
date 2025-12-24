@@ -1,3 +1,3 @@
-# Anshul Koshyari - Personal Website
+# Anshul Koshyari
 
-A minimal personal website built with Next.js, Tailwind CSS, and deployed via GitHub Pages.
+Built with Next.js, Tailwind CSS, and deployed via GitHub Pages.
