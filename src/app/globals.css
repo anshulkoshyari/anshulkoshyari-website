@@ -19,3 +19,17 @@ body {
   line-height: 1.6;
 }
 
+/* Fix for mobile hover states - prevent hover from sticking on touch devices */
+a {
+  -webkit-tap-highlight-color: transparent;
+  touch-action: manipulation;
+}
+
+@media (hover: none) and (pointer: coarse) {
+  a:hover,
+  button:hover {
+    color: inherit !important;
+    background-color: inherit !important;
+  }
+}
+
