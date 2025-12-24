@@ -13,7 +13,7 @@ export default function Home() {
                 href="https://twitter.com/anshulkoshyari"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-gray-500 font-light hover:underline text-xs"
+                className="text-gray-500 hover:underline text-xs"
               >
                 Twitter
               </a>
@@ -23,7 +23,7 @@ export default function Home() {
                 href="https://github.com/anshulkoshyari"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-gray-500 font-light hover:underline text-xs"
+                className="text-gray-500 hover:underline text-xs"
               >
                 Github
               </a>
