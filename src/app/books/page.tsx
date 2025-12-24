@@ -122,16 +122,16 @@ export default function Books() {
               <div className="space-y-1">
                 <div className="flex justify-between items-start">
                   <div>
-                    <h2 className="text-[13.5px] font-light dark:text-gray-100">{book.title}</h2>
-                    <p className="text-[11.5px] text-gray-500 font-light dark:text-gray-400">{book.author}</p>
+                    <h2 className="text-[13.5px] dark:text-gray-100">{book.title}</h2>
+                    <p className="text-[11.5px] text-gray-500 dark:text-gray-400">{book.author}</p>
                   </div>
                   <div className="flex flex-col items-end">
                     <StarRating rating={book.rating} />
-                    <span className="text-[11.5px] text-gray-500 font-light dark:text-gray-400 mt-0.5">{book.dateRead}</span>
+                    <span className="text-[11.5px] text-gray-500 dark:text-gray-400 mt-0.5">{book.dateRead}</span>
                   </div>
                 </div>
                 {book.review && (
-                  <p className="font-light dark:text-gray-300 text-[11.5px]">{book.review}</p>
+                  <p className="dark:text-gray-300 text-[11.5px]">{book.review}</p>
                 )}
               </div>
             </div>

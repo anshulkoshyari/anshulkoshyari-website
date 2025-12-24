@@ -4,7 +4,7 @@ import ThemeProvider from '@/components/ThemeProvider'
 
 export const metadata: Metadata = {
   title: 'Anshul Koshyari',
-  description: 'Personal website of Anshul Koshyari',
+  description: 'Anshul Koshyari\'s personal website',
 }
 
 export default function RootLayout({
