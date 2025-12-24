@@ -50,16 +50,16 @@ export default function Papers() {
               <div className="space-y-1">
                 <div className="flex justify-between items-start">
                   <div>
-                    <h2 className="text-[13.5px] font-light dark:text-gray-100">{paper.title}</h2>
-                    <p className="text-[11.5px] text-gray-500 font-light dark:text-gray-400">{paper.authors}</p>
+                    <h2 className="text-[13.5px] dark:text-gray-100">{paper.title}</h2>
+                    <p className="text-[11.5px] text-gray-500 dark:text-gray-400">{paper.authors}</p>
                   </div>
                   <div className="flex flex-col items-end">
                     <StarRating rating={paper.rating} />
-                    <span className="text-[11.5px] text-gray-500 font-light dark:text-gray-400 mt-0.5">{paper.dateRead}</span>
+                    <span className="text-[11.5px] text-gray-500 dark:text-gray-400 mt-0.5">{paper.dateRead}</span>
                   </div>
                 </div>
                 {paper.review && (
-                  <p className="font-light dark:text-gray-300 text-[11.5px]">{paper.review}</p>
+                  <p className="text-gray-600 dark:text-gray-300 text-[11.5px]">{paper.review}</p>
                 )}
               </div>
             </div>

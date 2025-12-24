@@ -131,7 +131,7 @@ export default function Books() {
                   </div>
                 </div>
                 {book.review && (
-                  <p className="dark:text-gray-300 text-[11.5px]">{book.review}</p>
+                  <p className="text-gray-600 dark:text-gray-300 text-[11.5px]">{book.review}</p>
                 )}
               </div>
             </div>
