@@ -69,6 +69,13 @@ const books: Book[] = [
     rating: 5,
     dateRead: '08-2025'
   },
+  {
+    title: 'A Thousand Splendid Suns',
+    author: 'Khaled Hosseini',
+    review: 'Heartbreaking',
+    rating: 5,
+    dateRead: '03-2025'
+  },
 ]
 
 function StarRating({ rating }: { rating: number }) {
