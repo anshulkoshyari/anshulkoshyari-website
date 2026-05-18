@@ -15,8 +15,7 @@ const books: Book[] = [
   {
     title: 'The Three-Body Problem',
     author: 'Cixin Liu',
-    review: 'Work in progress',
-    rating: 0,
+    rating: 5,
     dateRead: '12-2025'
   },
   {
@@ -63,6 +62,12 @@ const books: Book[] = [
     author: 'Peter Thiel',
     rating: 4,
     dateRead: '09-2025'
+  },
+  {
+    title: 'The Lean Startup',
+    author: 'Eric Ries',
+    rating: 5,
+    dateRead: '08-2025'
   },
 ]
 

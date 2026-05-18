@@ -8,15 +8,14 @@
 }
 
 .dark {
-  --foreground-rgb: 255, 255, 255;
+  --foreground-rgb: 237, 237, 237; /* #EDEDED */
   --background-rgb: 0, 0, 0;
 }
 
 body {
   color: rgb(var(--foreground-rgb));
   background: rgb(var(--background-rgb));
-  font-size: 15px;
-  line-height: 1.6;
+  font-family: 'Geist', 'Helvetica', sans-serif;
 }
 
 /* Fix for mobile hover states - prevent hover from sticking on touch devices */
