@@ -8,7 +8,12 @@ export default function Home() {
         <p className="text-sm font-light">
           Situations that the matter most are often dependent on what you can think
           and say in the moment, not what you can come up with later.{' '}
-          <a href="https://hovrlay.com" className="underline">
+          <a
+            href="https://hovrlay.com" 
+            target="_blank"
+            rel="noopener noreferrer"
+            className="underline"
+          >
             Hovrlay
           </a>{' '}
           is my attempt at making the hardest conversations easier.
